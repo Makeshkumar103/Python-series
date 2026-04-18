@@ -1,0 +1,26 @@
+l1=[1,'a',True,5.6]
+print(type(l1))
+l1=[1,'a',2,'b',3,'c']
+print(l1[0])
+print(l1[2:5])
+#modifiying a list
+l1[0]=100
+print(l1)
+l1.pop()
+l1.append('d')
+print(l1)
+l1.insert(2,'x')
+print(l1)
+l1.remove('a')
+print(l1)
+l1.reverse()
+print(l1)
+l3=["mango","banana","guauva","apple"]
+l3.sort()
+print(l3)
+k1=[1,2,3,]
+k2=["a,",'b','c']
+k1.extend(k2)
+print(k1)
+print(k1+k2)
+print(k2*2)
